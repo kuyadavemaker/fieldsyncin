@@ -1,0 +1,23 @@
+# Local secrets and credentials
+.env
+.env.*
+*.env
+fieldsync.env
+*secret*
+*credential*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Database exports and migrations
+*.sql
+/sql/
+
+# Local runtime files
+*.log
+/vendor/
+/node_modules/
+
+# Live database credentials
+config/db_credentials.php
